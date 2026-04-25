@@ -35,9 +35,9 @@ GROUP_URLS = [
         "group e",
         "Group E Dashboard Minitwit",
         # Monitoring URL:
-        "http://157.230.121.187:3000/dashboards",
+        "https://minitwit-devops.tech/dashboards",
         # Logging URL:
-        "<logging_url>",
+        "https://minitwit-devops.tech/dashboards",
     ],
     [
         "group f",
