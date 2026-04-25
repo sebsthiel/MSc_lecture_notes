@@ -31,8 +31,8 @@ GROUP_REPOS = [
         "group e",
         "Jams",
         ["https://github.com/sebsthiel/minitwit-devops"],
-        "http://157.230.121.187:5000",
-        "http://157.230.121.187:5001/api"
+        "https://minitwit-devops.tech",
+        "https://minitwit-devops.tech/api"
     ],
     [
         "group f",
