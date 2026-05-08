@@ -131,9 +131,9 @@ GROUP_URLS = [
         "group p",
         "EastTOps",
         # Monitoring URL:
-        "http://164.90.229.101:3000/dashboards",
+        "https://itu-minitwit.me/grafana/dashboards",
         # Logging URL:
-        "<logging_url>",
+        "https://itu-minitwit.me/grafana/d/he869gg/logs?orgId=1&from=now-15m&to=now&timezone=browser",
     ],
      [
         "group q",
