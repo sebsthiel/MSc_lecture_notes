@@ -137,7 +137,7 @@ link:https://github.com/itu-devops/MSc_lecture_notes/blob/master/sessions/sessio
 |12:00 - 16:00
 |Mircea
 |
-|link:https://github.com/itu-devops/MSc_lecture_notes/blob/master/sessions/session_12/IaC.pdf[Infrastructure as Code] and link:https://github.com/itu-devops/MSc_lecture_notes/blob/master/sessions/session_13/Architectural_Documentation.pdf[Documentation of Systems and Projects]
+|link:https://github.com/itu-devops/MSc_lecture_notes/blob/master/sessions/session_12/IaC.pdf[Infrastructure as Code] and link:https://github.com/itu-devops/MSc_lecture_notes/blob/master/sessions/session_12/Documentation.md[Documentation of Systems and Projects]
 |link:https://github.com/itu-devops/MSc_lecture_notes/blob/master/sessions/session_12/README_EXERCISE.md[MiniTwit Infrastructure as Code]
 |link:https://github.com/itu-devops/MSc_lecture_notes/blob/master/sessions/session_12/README_TASKS.md[Encode your infrastructure setup]
 // w18
