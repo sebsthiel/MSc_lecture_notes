@@ -9,7 +9,7 @@ image:images/banner.png[image]
 === Content
 
 
-This page contains information on the schedule, material, exam, etc. for the MSc elective "DevOps, Software Evolution and Software Maintenance Content" at IT University of Copenhagen, spring 2026 (link:https://learnit.itu.dk/local/coursebase/view.php?ciid=1894[Course description on LearnIT]).
+This page contains information on the schedule, material, exam, etc. for the MSc elective "DevOps, Software Evolution and Software Maintenance Content" at IT University of Copenhagen, spring 2026 (link:https://learnit.itu.dk/local/coursebase/view.php?ciid=1896[Course description on LearnIT]).
 
 
 === Schedule
