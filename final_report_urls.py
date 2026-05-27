@@ -25,9 +25,9 @@ REPORT_URLS = [
     ],
     [
         "group e",
-        "<name>",
+        "Jams",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/sebsthiel/minitwit-devops/archive/refs/tags/1.5.1.zip",
     ],
     [
         "group f",
