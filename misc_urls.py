@@ -123,17 +123,17 @@ GROUP_URLS = [
         "group o",
         "Rollback and relax",
         # Monitoring URL:
-        "http://167.172.111.97:3001/dashboards",
+        "https://grafana.rollbackandrelax.dk/dashboards",
         # Logging URL:
-        "http://167.172.111.97:3001/d/ad2jj8r/minitwit-logs-dashboard?orgId=1&from=now-6h&to=now&timezone=browser",
+        "https://grafana.rollbackandrelax.dk/dashboards",
     ],
     [
         "group p",
         "EastTOps",
         # Monitoring URL:
-        "http://164.90.229.101:3000/dashboards",
+        "https://itu-minitwit.me/grafana/dashboards",
         # Logging URL:
-        "<logging_url>",
+        "https://itu-minitwit.me/grafana/d/he869gg/logs?orgId=1&from=now-15m&to=now&timezone=browser",
     ],
      [
         "group q",

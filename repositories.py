@@ -38,8 +38,8 @@ GROUP_REPOS = [
         "group f",
         "if time > 16 {beer++;}",
         ["https://github.com/TienCamLy/MiniTwit"],
-        "http://157.230.30.175:8080",
-        "http://157.230.30.175:8080",
+        "https://minitwitj.dk/",
+        "https://minitwitj.dk/",
     ],
     [
         "group g",
@@ -59,8 +59,8 @@ GROUP_REPOS = [
         "group k",
         "Pat Myaz",
         ["https://github.com/ITU-DevOps2026/ITU-minitwit"],
-        "http://209.38.114.224:5035",
-        "http://209.38.114.224:5035/api",
+        "https://bigtwit.app",
+        "https://bigtwit.app/api",
     ],
     [
         "group m",
@@ -80,8 +80,8 @@ GROUP_REPOS = [
         "group o",
         "Rollback & Relax",
         ["https://github.com/alqeren1/devops"],
-        "http://167.172.111.97:3000",
-        "http://167.172.111.97:5001",
+        "https://rollbackandrelax.dk",
+        "https://api.rollbackandrelax.dk",
     ],
     [
         "group p",

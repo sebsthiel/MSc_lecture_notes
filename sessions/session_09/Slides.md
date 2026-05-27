@@ -623,34 +623,6 @@ Example:
           - "node.label==frankfurt"
 ```
 
-## Healthchecks: detecting vs. acting
-
-A Docker `HEALTHCHECK` only **reports** a container's state (`healthy` / `unhealthy`). On its own, it does not restart anything — an unhealthy container keeps running.
-
-Who *acts* on the health status depends on where you run:
-
-- **Plain Docker / Compose** — nobody acts. You need a sidecar like [`willfarrell/autoheal`](https://github.com/willfarrell/docker-autoheal) that listens on the Docker socket and restarts containers labeled `autoheal=true` when they go unhealthy.
-- **Swarm** — the orchestrator acts. A task that goes unhealthy is killed and replaced to maintain the declared `replicas`, governed by `restart_policy` (condition, delay, max_attempts).
-- **Kubernetes** — two separate probes: `livenessProbe` triggers a restart, `readinessProbe` removes the pod from the Service's load-balancer endpoints.
-
-```yaml
-  api:
-    image: itudevops/go-minitwit-api:TAG
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
-      interval: 30s
-      timeout: 5s
-      retries: 3
-    deploy:
-      replicas: 2
-      restart_policy:
-        condition: on-failure
-        delay: 5s
-        max_attempts: 3
-```
-
-This is one of the concrete wins of moving from Compose to Swarm: the orchestrator *is* the autoheal.
-
 ## `docker stack` — deploying a compose file to a swarm
 
 Instead of `docker compose up`, in a swarm you use `docker stack`:
